@@ -39,6 +39,8 @@ public class IqrMc {
 		String vmSelectionPolicy = "mc"; // Maximum Correlation (MC) VM selection policy
 		String parameter = "1.5"; // the safety parameter of the IQR policy
 
+		System.out.println("Edited");
+
 		new PlanetLabRunner(
 				enableOutput,
 				outputToFile,
